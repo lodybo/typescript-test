@@ -1,7 +1,19 @@
-function greeter(person: string) {
-    return "Hello mr. " + person;
+interface Person {
+    name: string;
+    department: string;
+    age: number;
 }
 
-var user = "John Doe";
+function greeter(person: Person) {
+    return "Hello mr. " + person.name + ", who is " + person.age + " years old and works in " + person.department;
+}
 
-document.body.innerHTML = greeter(user);
+let arr = [0, 1, 2];
+let user = "John Doe";
+let oUser = {
+    name: "Jane Doe",
+    department: "Accounting",
+    age: 42
+}; 
+
+document.body.innerHTML = greeter(oUser);
