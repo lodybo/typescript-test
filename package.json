@@ -1,8 +1,8 @@
 {
     "name": "typescript-test",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "scripts": {
-        "tsc": "tsc",
+        "tsc": "tsc"
     },
     "author": {
         "name": "Lody Borgers",
