@@ -1,16 +1,18 @@
 {
-    "name": "typescript-test",
-    "version": "0.1.1",
-    "scripts": {
-        "tsc": "tsc"
-    },
-    "author": {
-        "name": "Lody Borgers",
-        "email": "hi@lodybo.nl"
-    },
-    "private": true,
-    "license": "MIT",
-    "devDependencies": {
-        "typescript": "^2.0.3"
-    }
+  "name": "typescript-test",
+  "version": "0.1.2",
+  "scripts": {
+    "tsc": "tsc",
+    "ts-lint": "ts-lint --format=verbose --project=tsconfig.json"
+  },
+  "author": {
+    "name": "Lody Borgers",
+    "email": "hi@lodybo.nl"
+  },
+  "private": true,
+  "license": "MIT",
+  "devDependencies": {
+    "tslint": "^3.15.1",
+    "typescript": "^2.0.3"
+  }
 }
