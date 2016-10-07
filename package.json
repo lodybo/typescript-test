@@ -1,9 +1,9 @@
 {
   "name": "typescript-test",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "scripts": {
     "tsc": "tsc",
-    "ts-lint": "ts-lint --format=verbose --project=tsconfig.json"
+    "tslint": "tslint --format=verbose --project=tsconfig.json"
   },
   "author": {
     "name": "Lody Borgers",
